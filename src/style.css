@@ -443,6 +443,64 @@ body {
   50% { opacity: 1; transform: translateX(-50%) translateY(4px); }
 }
 
+/* --- pista "tócame para girar": la manita hace tap con un ripple --- */
+.flip-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s ease;
+  z-index: 5;
+}
+.flip-hint.show { opacity: 1; }
+.flip-hint__hand {
+  width: clamp(34px, 7vmin, 52px);
+  height: auto;
+  color: #fff;
+  filter:
+    drop-shadow(0 0 1px rgba(0, 0, 0, .95))
+    drop-shadow(0 0 2px rgba(0, 0, 0, .85))
+    drop-shadow(0 3px 8px rgba(0, 0, 0, .6));
+  transform-origin: 60% 25%;
+  animation: handTap 1.8s ease-in-out infinite;
+}
+.flip-hint__ripple {
+  position: absolute;
+  top: clamp(16px, 3.4vmin, 25px); /* ≈ a la altura de la yema del dedo */
+  left: 50%;
+  width: clamp(40px, 8vmin, 60px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(.4);
+  animation: tapRipple 1.8s ease-out infinite;
+}
+.flip-hint__text {
+  margin-top: 4px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: clamp(13px, 2.8vmin, 19px);
+  letter-spacing: .5px;
+  color: var(--gold);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .6);
+  white-space: nowrap;
+}
+@keyframes handTap {
+  0%, 100% { transform: translateY(0) scale(1); }
+  18% { transform: translateY(6px) scale(.92); } /* baja: el toque */
+  36% { transform: translateY(0) scale(1); }
+}
+@keyframes tapRipple {
+  0%, 18% { transform: translate(-50%, -50%) scale(.4); opacity: 0; }
+  24% { opacity: .85; } /* el anillo nace justo cuando el dedo toca */
+  60%, 100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }
+}
+
 /* --- frases emotivas --- */
 .emotion {
   margin: 0;
@@ -526,6 +584,8 @@ body {
   .shine { opacity: 0; }
   .intro { display: none; }
   .scene { opacity: 1; pointer-events: auto; }
+  .flip-hint__hand, .flip-hint__ripple { animation: none; }
+  .flip-hint__ripple { opacity: 0; }
   .phone { animation: none; transform: rotate(-90deg); }
 }
 .rotate-gate { display: none; }

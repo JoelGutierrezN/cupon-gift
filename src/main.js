@@ -158,6 +158,7 @@ const onPointerUp = (event) => {
   pointerStart = null
   if (Math.hypot(dx, dy) > swipeDistance && dt < swipeTime) {
     card.classList.toggle('flipped')
+    dismissFlipHint()
     suppressClick = true
   }
 }
@@ -168,11 +169,28 @@ card.addEventListener('click', () => {
     return
   }
   card.classList.toggle('flipped')
+  dismissFlipHint()
 })
 scene.addEventListener('pointerdown', onPointerDown)
 scene.addEventListener('pointerup', onPointerUp)
 scene.addEventListener('pointermove', applyTilt)
 scene.addEventListener('pointerleave', resetTilt)
+
+/* --- pista "tócame para girar": aparece tras el reveal, se va al primer giro --- */
+const flipHint = document.querySelector('.flip-hint')
+let flipHintLive = false
+
+const armFlipHint = (delay = 2600) => {
+  flipHintLive = true
+  window.setTimeout(() => {
+    if (flipHintLive) flipHint.classList.add('show')
+  }, delay)
+}
+
+const dismissFlipHint = () => {
+  flipHintLive = false
+  flipHint.classList.remove('show')
+}
 
 /* --- frases manuscritas: el trazo se dibuja como con un pincel (Vara.js) --- */
 const HAND_PHRASES = [
@@ -307,6 +325,7 @@ const revealCard = () => {
   rockets(4, 320)
   fireworks(2400)
   window.setTimeout(drawCoupon, 300) // el trazado acompaña la llegada del cupón
+  armFlipHint() // tras la celebración, invita a girar la tarjeta
 }
 
 const EMOTION_PHRASES = [
@@ -439,6 +458,7 @@ const start = () => {
   if (prefersReduced) {
     intro.remove()
     scene.classList.add('reveal')
+    armFlipHint(800)
     return
   }
   runIntro()
