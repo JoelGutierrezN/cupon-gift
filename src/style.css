@@ -8,9 +8,14 @@
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   place-items: center;
-  padding: clamp(.5rem, 2vmin, 1.5rem);
+  padding:
+    max(clamp(.5rem, 2vmin, 1.5rem), env(safe-area-inset-top))
+    max(clamp(.5rem, 2vmin, 1.5rem), env(safe-area-inset-right))
+    max(clamp(.5rem, 2vmin, 1.5rem), env(safe-area-inset-bottom))
+    max(clamp(.5rem, 2vmin, 1.5rem), env(safe-area-inset-left));
   overflow: hidden;
   background: radial-gradient(120% 120% at 50% 0%, #241a14 0%, var(--bg) 70%);
   color: var(--paper);
@@ -19,7 +24,7 @@ body {
 .stage { width: 100%; }
 .scene {
   position: relative;
-  width: min(92vw, calc(90vh * 680 / 380));
+  width: min(92vw, calc(90svh * 680 / 380));
   aspect-ratio: 680 / 380;
   margin: 0 auto;
   perspective: 1400px;

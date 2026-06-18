@@ -394,8 +394,20 @@ const celebrate = async () => {
   intro.remove()
 }
 
+// Pide pantalla completa tipo YouTube (oculta la barra del navegador en Android) y bloquea
+// horizontal. En iOS/Safari la Fullscreen API no aplica a elementos no-<video>: no-op silencioso.
+const goFullscreen = () => {
+  const el = document.documentElement
+  const req = el.requestFullscreen || el.webkitRequestFullscreen
+  if (!req) return
+  req.call(el)
+    .then(() => screen.orientation?.lock?.('landscape').catch(() => {}))
+    .catch(() => {})
+}
+
 // Cuando le pegan al sobre: reacciona, se rompe el sello, se abre y arranca la fiesta.
 const openEnvelope = () => {
+  goFullscreen() // primer gesto del usuario: requisito de la Fullscreen API
   envelope.classList.remove('invite')
   envelope.classList.add('hit')
   burst() // pequeño golpe de confeti como feedback del toque
