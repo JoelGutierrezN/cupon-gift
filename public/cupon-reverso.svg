@@ -1,0 +1,99 @@
+<svg width="100%" viewBox="0 0 680 380" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Reverso del cupón de pellejos con instrucciones y términos humorísticos</title>
+<desc>Parte trasera del vale estilo carnicería: instrucciones de canje, tarjeta de cliente frecuente, atención a clientes y autorización.</desc>
+<defs>
+<style>
+.serif{font-family:Georgia,'Times New Roman',serif}
+.sans{font-family:'Helvetica Neue',Arial,system-ui,sans-serif}
+</style>
+</defs>
+
+<rect x="16" y="16" width="648" height="348" rx="14" fill="#F4E9D6" stroke="#B98A3C" stroke-width="2.5"/>
+<rect x="27" y="27" width="626" height="326" rx="9" fill="none" stroke="#7C2A2A" stroke-width="1" opacity="0.45"/>
+<rect x="31" y="31" width="618" height="318" rx="7" fill="none" stroke="#B98A3C" stroke-width="0.8" opacity="0.7"/>
+
+<line x1="470" y1="20" x2="470" y2="308" stroke="#7C2A2A" stroke-width="1" stroke-dasharray="2 4" opacity="0.5"/>
+<line x1="263" y1="116" x2="263" y2="248" stroke="#B98A3C" stroke-width="0.8" stroke-dasharray="1 4" opacity="0.45"/>
+
+<path d="M224 41 C223 31 238 27 251 28 C266 29 273 36 271 45 C270 55 253 57 240 55 C229 53 225 49 224 41 Z" fill="#7C2A2A"/>
+<ellipse cx="231" cy="41" rx="4.5" ry="6" fill="#F4E9D6"/>
+<path d="M235 36 C242 40 250 39 258 35" fill="none" stroke="#D8B877" stroke-width="1" opacity="0.55"/>
+<path d="M236 47 C244 44 252 46 260 43" fill="none" stroke="#D8B877" stroke-width="1" opacity="0.5"/>
+
+<text class="serif" x="248" y="74" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1" fill="#7C2A2A">LA CASA DEL BUEN SERVICIO</text>
+<text class="sans" x="248" y="90" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.78">reverso · léase con sentido del humor</text>
+<line x1="72" y1="100" x2="424" y2="100" stroke="#B98A3C" stroke-width="1" opacity="0.8"/>
+<path d="M248 95 L253 100 L248 105 L243 100 Z" fill="#B98A3C"/>
+
+<text class="sans" x="148" y="126" text-anchor="middle" font-size="11" font-weight="500" letter-spacing="2" fill="#7C2A2A">¿CÓMO SE CANJEA?</text>
+<circle cx="54" cy="146" r="8" fill="#7C2A2A"/>
+<text class="sans" x="54" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#F4E9D6">1</text>
+<text class="serif" x="68" y="150" font-size="12" fill="#3A241A">Llévalo a la próxima peda.</text>
+<circle cx="54" cy="170" r="8" fill="#7C2A2A"/>
+<text class="sans" x="54" y="174" text-anchor="middle" font-size="11" font-weight="700" fill="#F4E9D6">2</text>
+<text class="serif" x="68" y="174" font-size="12" fill="#3A241A">Pide tu corte con confianza.</text>
+<circle cx="54" cy="194" r="8" fill="#7C2A2A"/>
+<text class="sans" x="54" y="198" text-anchor="middle" font-size="11" font-weight="700" fill="#F4E9D6">3</text>
+<text class="serif" x="68" y="198" font-size="12" fill="#3A241A">Conténtate con lo que haya.</text>
+<circle cx="54" cy="218" r="8" fill="#7C2A2A"/>
+<text class="sans" x="54" y="222" text-anchor="middle" font-size="11" font-weight="700" fill="#F4E9D6">4</text>
+<text class="serif" x="68" y="222" font-size="12" fill="#3A241A">Sin devoluciones ni llanto.</text>
+
+<text class="sans" x="360" y="126" text-anchor="middle" font-size="11" font-weight="500" letter-spacing="2" fill="#7C2A2A">CLIENTE FRECUENTE</text>
+<text class="serif" x="360" y="144" text-anchor="middle" font-size="11.5" font-style="italic" fill="#3A241A" opacity="0.8">junta tus pellejos:</text>
+<circle cx="292" cy="170" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<text class="serif" x="292" y="175" text-anchor="middle" font-size="13" fill="#7C2A2A">★</text>
+<circle cx="326" cy="170" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<text class="serif" x="326" y="175" text-anchor="middle" font-size="13" fill="#7C2A2A">★</text>
+<circle cx="360" cy="170" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<text class="serif" x="360" y="175" text-anchor="middle" font-size="13" fill="#7C2A2A">★</text>
+<circle cx="394" cy="170" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<text class="serif" x="394" y="175" text-anchor="middle" font-size="13" fill="#7C2A2A">★</text>
+<circle cx="428" cy="170" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<circle cx="292" cy="200" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<text class="serif" x="292" y="205" text-anchor="middle" font-size="13" fill="#7C2A2A">★</text>
+<circle cx="326" cy="200" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<circle cx="360" cy="200" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<circle cx="394" cy="200" r="10" fill="none" stroke="#7C2A2A" stroke-width="1.2"/>
+<circle cx="428" cy="200" r="10" fill="none" stroke="#B23A2E" stroke-width="1.4" stroke-dasharray="2 2"/>
+<text class="serif" x="360" y="228" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.8">junta 9 pellejos y el 10…</text>
+<text class="serif" x="360" y="242" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.8">también es pellejo *</text>
+
+<line x1="44" y1="254" x2="452" y2="254" stroke="#B98A3C" stroke-width="0.8" opacity="0.45"/>
+<text class="sans" x="52" y="274" font-size="11" fill="#3A241A" opacity="0.7">Autorizado por:</text>
+<path d="M58 292 C72 280 80 300 96 288 C110 278 118 296 132 286 C146 278 162 294 190 283" fill="none" stroke="#3A241A" stroke-width="1.3" opacity="0.85"/>
+<line x1="52" y1="295" x2="200" y2="295" stroke="#3A241A" stroke-width="0.6" opacity="0.5"/>
+<text class="serif" x="56" y="307" font-size="11" font-style="italic" fill="#3A241A" opacity="0.75">La Gerencia · Depto. de Cortes Finos</text>
+
+<ellipse cx="402" cy="282" rx="28" ry="28" fill="none" stroke="#B23A2E" stroke-width="2.2" opacity="0.8"/>
+<ellipse cx="402" cy="282" rx="22" ry="22" fill="none" stroke="#B23A2E" stroke-width="0.9" opacity="0.8"/>
+<text class="serif" x="402" y="288" text-anchor="middle" font-size="15" font-weight="700" fill="#B23A2E" opacity="0.85">Vo.Bo.</text>
+
+<text class="sans" x="567" y="52" text-anchor="middle" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7C2A2A">ATENCIÓN A CLIENTES</text>
+<text class="serif" x="567" y="74" text-anchor="middle" font-size="15" font-weight="700" fill="#7C2A2A">01-800-PELLEJO</text>
+<text class="sans" x="567" y="90" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.75">servicio discreto · 24/7</text>
+<line x1="500" y1="100" x2="636" y2="100" stroke="#B98A3C" stroke-width="0.8" opacity="0.6"/>
+
+<g fill="#3A241A">
+<rect x="524" y="112" width="22" height="22"/><rect x="528" y="116" width="14" height="14" fill="#F4E9D6"/><rect x="532" y="120" width="6" height="6" fill="#3A241A"/>
+<rect x="588" y="112" width="22" height="22"/><rect x="592" y="116" width="14" height="14" fill="#F4E9D6"/><rect x="596" y="120" width="6" height="6" fill="#3A241A"/>
+<rect x="524" y="176" width="22" height="22"/><rect x="528" y="180" width="14" height="14" fill="#F4E9D6"/><rect x="532" y="184" width="6" height="6" fill="#3A241A"/>
+<rect x="552" y="114" width="6" height="6"/><rect x="564" y="114" width="6" height="6"/><rect x="576" y="114" width="6" height="6"/>
+<rect x="552" y="126" width="6" height="6"/><rect x="570" y="126" width="6" height="6"/>
+<rect x="558" y="138" width="6" height="6"/><rect x="576" y="138" width="6" height="6"/><rect x="594" y="138" width="6" height="6"/>
+<rect x="536" y="150" width="6" height="6"/><rect x="550" y="150" width="6" height="6"/><rect x="566" y="150" width="6" height="6"/><rect x="584" y="150" width="6" height="6"/>
+<rect x="558" y="162" width="6" height="6"/><rect x="572" y="162" width="6" height="6"/><rect x="596" y="162" width="6" height="6"/>
+<rect x="550" y="176" width="6" height="6"/><rect x="566" y="176" width="6" height="6"/><rect x="584" y="174" width="6" height="6"/>
+<rect x="558" y="188" width="6" height="6"/><rect x="572" y="188" width="6" height="6"/><rect x="590" y="188" width="6" height="6"/>
+</g>
+<text class="serif" x="567" y="214" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.8">escanea para reservar</text>
+<text class="serif" x="567" y="228" text-anchor="middle" font-size="11" font-style="italic" fill="#3A241A" opacity="0.75">tu pellejo de confianza</text>
+<line x1="500" y1="240" x2="636" y2="240" stroke="#B98A3C" stroke-width="0.8" opacity="0.6"/>
+<text class="sans" x="567" y="258" text-anchor="middle" font-size="11" fill="#3A241A" opacity="0.7">valor en efectivo:</text>
+<text class="serif" x="567" y="274" text-anchor="middle" font-size="12" font-style="italic" fill="#7C2A2A">$0.00 (obvio)</text>
+<text class="sans" x="567" y="292" text-anchor="middle" font-size="11" fill="#3A241A" opacity="0.65">no canjeable por dignidad</text>
+
+<line x1="44" y1="316" x2="636" y2="316" stroke="#B98A3C" stroke-width="0.8" opacity="0.5"/>
+<text class="sans" x="340" y="330" text-anchor="middle" font-size="11" fill="#3A241A" opacity="0.7">Este vale no garantiza calidad, higiene ni buena conducta del portador.</text>
+<text class="sans" x="340" y="344" text-anchor="middle" font-size="11" fill="#3A241A" opacity="0.7">Cualquier reclamación se atiende con otra ronda. Prohibido tomárselo en serio.</text>
+</svg>

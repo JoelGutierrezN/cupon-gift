@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vale oficial — La Casa del Buen Servicio</title>
+</head>
+<body>
+  <main class="stage">
+    <div class="scene">
+      <div class="deal">
+        <div class="tilt">
+          <div class="card">
+            <div class="face front"><img src="/cupon-frente.svg" alt="Frente del cupón: válido por unos pellejos"></div>
+            <div class="face back"><img src="/cupon-reverso.svg" alt="Reverso del cupón: instrucciones y condiciones"></div>
+          </div>
+        </div>
+      </div>
+      <div class="shine"></div>
+    </div>
+  </main>
+
+  <div class="intro" aria-hidden="true">
+    <div class="lights">
+      <div class="rays"></div>
+      <div class="halo"></div>
+    </div>
+    <div class="sparkles"></div>
+
+    <div class="frame">
+      <i class="fr fr-top"></i>
+      <i class="fr fr-right"></i>
+      <i class="fr fr-bottom"></i>
+      <i class="fr fr-left"></i>
+      <i class="fr-corner tl"></i>
+      <i class="fr-corner tr"></i>
+      <i class="fr-corner br"></i>
+      <i class="fr-corner bl"></i>
+    </div>
+
+    <div class="envelope">
+      <div class="env-paper"></div>
+      <div class="env-flap"></div>
+      <div class="env-seal"><span>XV</span></div>
+      <span class="env-hint">¡Pégale al sobre!</span>
+    </div>
+
+    <div class="greeting">
+      <p class="greet-top">Felices</p>
+      <div class="roman"><span class="roman-ink">XV</span></div>
+      <p class="greet-bottom">años</p>
+    </div>
+
+    <p class="emotion"></p>
+
+    <div class="handwrite"></div>
+
+    <div class="suspense-dim"></div>
+    <div class="suspense">
+      <p class="suspense-line"></p>
+      <div class="drumroll"><i></i><i></i><i></i></div>
+    </div>
+
+    <div class="stamp">se vienen pellejos</div>
+
+    <div class="vignette"></div>
+    <div class="grain"></div>
+  </div>
+  <canvas class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <div class="rotate-gate" role="alertdialog" aria-live="assertive">
+    <div class="rotate-gate__inner">
+      <div class="phone" aria-hidden="true"></div>
+      <p class="rotate-gate__title">Gira tu teléfono</p>
+      <p class="rotate-gate__text">Pon tu celular en horizontal para ver el vale.</p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

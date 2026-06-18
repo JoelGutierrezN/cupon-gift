@@ -1,0 +1,20 @@
+{
+  "name": "vale-casa-buen-servicio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vale oficial interactivo — La Casa del Buen Servicio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "canvas-confetti": "^1.9.3",
+    "vara": "^1.4.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+# pnpm 11+ lee aquí ajustes que antes vivían en el campo "pnpm" de package.json.
+# Permitimos que esbuild (motor de Vite) ejecute su script de instalación.
+allowBuilds:
+  esbuild: true
